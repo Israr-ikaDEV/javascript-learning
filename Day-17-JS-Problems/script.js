@@ -1,3 +1,4 @@
+// Swap using third variable
 function SwapNumbers(a, b) {
   let c = a;
   a = b;
@@ -6,6 +7,7 @@ function SwapNumbers(a, b) {
 }
 console.log(SwapNumbers(5, 10));
 
+// Swap without using third variable
 function SwapWithoutVar(x, y) {
   x = x + y;
   y = x - y;
@@ -14,26 +16,28 @@ function SwapWithoutVar(x, y) {
 }
 console.log(SwapWithoutVar(5, 6));
 
-console.log(
-  "---------------------------------------------------------------------"
-);
+console.log("---------------------------------------------------------------------");
 console.log("");
+
+// Fibonacci Series
 function fibonacci() {
   let i = 0;
-
   let j = 1;
   console.log(i);
   console.log(j);
   for (let k = 0; k <= 20; k++) {
-    let k = 0;
-    k = i + j;
-    console.log(k);
+    let next = i + j;
+    console.log(next);
     i = j;
-    j = k;
+    j = next;
   }
 }
-
 fibonacci();
+
+console.log("---------------------------------------------------------------------");
+console.log("");
+
+// Sum of digits
 function sumOfDigits(num) {
   let sum = 0;
   while (num > 0) {
@@ -42,19 +46,13 @@ function sumOfDigits(num) {
   }
   return sum;
 }
-
-console.log(
-  "---------------------------------------------------------------------"
-);
-console.log("");
 let num1 = 2456;
 console.log("sum of " + num1 + " = " + sumOfDigits(num1));
 
-console.log(
-  "---------------------------------------------------------------------"
-);
+console.log("---------------------------------------------------------------------");
 console.log("");
 
+// Armstrong number
 function armStrong(num) {
   function sumofdigits(num) {
     function length(num) {
@@ -70,8 +68,7 @@ function armStrong(num) {
     let sum = 0;
     let temp1 = num;
     while (temp1 > 0) {
-      digit = temp1 % 10;
-
+      let digit = temp1 % 10;
       sum += digit ** l;
       temp1 = parseInt(temp1 / 10);
     }
@@ -84,54 +81,36 @@ function armStrong(num) {
     console.log(num + " is not an armStrong number");
   }
 }
-
 let num2 = 153;
 armStrong(num2);
 
-
-console.log(
-  "---------------------------------------------------------------------"
-);
+console.log("---------------------------------------------------------------------");
 console.log("");
 
-
-
-
-function isperfect(num){
-   
-    let temp2 = num
-    let sum =0
-    if(temp2>0){
-        for(let i=1;i<temp2;i++){
-            if(temp2%i===0){
-               sum+=i
-            }
-        }
-       if(sum===temp2){
-        console.log( temp2 +" is a perfect number")
-       }
-       else{
-                console.log( temp2 +" is  not a perfect number")
-
-       }
-        
+// Perfect number
+function isperfect(num) {
+  let temp2 = num;
+  let sum = 0;
+  if (temp2 > 0) {
+    for (let i = 1; i < temp2; i++) {
+      if (temp2 % i === 0) {
+        sum += i;
+      }
     }
-    
-    
-    
+    if (sum === temp2) {
+      console.log(temp2 + " is a perfect number");
+    } else {
+      console.log(temp2 + " is not a perfect number");
+    }
+  }
 }
-num3=28
+let num3 = 28;
 isperfect(num3);
 
-
-
-console.log(
-  "---------------------------------------------------------------------"
-);
+console.log("---------------------------------------------------------------------");
 console.log("");
 
-
-
+// Reverse number
 function reverseNum(num) {
   let rev = 0;
   while (num > 0) {
@@ -141,18 +120,52 @@ function reverseNum(num) {
   }
   return rev;
 }
+let num4 = 1234;
+console.log(num4 + " reversed to -> " + reverseNum(num4));
 
-
-num4 =1234;
-console.log(num4 +" reversed to -> "+ reverseNum(num4))
-
-
-
-console.log(
-  "---------------------------------------------------------------------"
-);
+console.log("---------------------------------------------------------------------");
 console.log("");
 
+// ✅ Prime number check
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+let num5 = 29;
+console.log(num5 + (isPrime(num5) ? " is a prime number" : " is not a prime number"));
 
+console.log("---------------------------------------------------------------------");
+console.log("");
 
+// ✅ Palindrome number
+function isPalindrome(num) {
+  let original = num;
+  let reversed = reverseNum(num);
+  if (original === reversed) {
+    console.log(num + " is a palindrome number");
+  } else {
+    console.log(num + " is not a palindrome number");
+  }
+}
+let num6 = 121;
+isPalindrome(num6);
 
+console.log("---------------------------------------------------------------------");
+console.log("");
+
+// ✅ Factorial of a number
+function factorial(num) {
+  let fact = 1;
+  for (let i = 1; i <= num; i++) {
+    fact *= i;
+  }
+  return fact;
+}
+let num7 = 5;
+console.log("Factorial of " + num7 + " = " + factorial(num7));
+
+console.log("---------------------------------------------------------------------");
+console.log("");
