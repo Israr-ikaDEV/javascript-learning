@@ -10,3 +10,10 @@ This repo contains my daily JavaScript practice and mini projects (90-day challe
     - Reverse a number
     - Check if a number is prime
     - Sum of digits
+
+ **Day 2** → Array Utilities  
+  - Implemented functions for:
+    - Find maximum in array
+    - Find minimum in array
+    - Sum of array elements
+    - Reverse array
