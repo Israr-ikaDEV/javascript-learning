@@ -1,19 +1,18 @@
-# javascript-learning
-
-
-This repo contains my daily JavaScript practice and mini projects (90-day challenge).
-
 ## 📅 Progress Log
 
 - **Day 1** → Number Utilities  
-  - Implemented functions for:
-    - Reverse a number
-    - Check if a number is prime
-    - Sum of digits
+  - Reverse a number  
+  - Check if a number is prime  
+  - Sum of digits  
 
- **Day 2** → Array Utilities  
-  - Implemented functions for:
-    - Find maximum in array
-    - Find minimum in array
-    - Sum of array elements
-    - Reverse array
+- **Day 2** → Array Utilities  
+  - Find maximum in array  
+  - Find minimum in array  
+  - Sum of array elements  
+  - Reverse array  
+
+- **Day 3** → String Utilities  
+  - Reverse a string  
+  - Check if a string is a palindrome  
+  - Count vowels in a string  
+  - Convert to Title Case
