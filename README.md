@@ -16,3 +16,9 @@
   - Check if a string is a palindrome  
   - Count vowels in a string  
   - Convert to Title Case
+
+- **Day 4** → Object Utilities  
+  - Count properties in an object  
+  - Find the oldest person in an array of objects  
+  - Clone an object (shallow copy)  
+  - Merge two objects  
