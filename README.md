@@ -22,3 +22,9 @@
   - Find the oldest person in an array of objects  
   - Clone an object (shallow copy)  
   - Merge two objects  
+
+- **Day 5** → Function Utilities  
+  - Function that calls another function twice  
+  - Function that returns another function (closure)  
+  - Custom implementation of `forEach`  
+  - Debounce function (basic async utility)  
