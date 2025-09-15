@@ -28,3 +28,9 @@
   - Function that returns another function (closure)  
   - Custom implementation of `forEach`  
   - Debounce function (basic async utility)  
+
+- **Day 6** → Date & Time Utilities  
+  - Get current date & time in `YYYY-MM-DD HH:MM:SS` format  
+  - Format a date as `DD/MM/YYYY`  
+  - Find difference between two dates in days  
+  - Add N days to a given date  
