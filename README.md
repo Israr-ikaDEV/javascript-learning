@@ -33,4 +33,10 @@
   - Get current date & time in `YYYY-MM-DD HH:MM:SS` format  
   - Format a date as `DD/MM/YYYY`  
   - Find difference between two dates in days  
-  - Add N days to a given date  
+  - Add N days to a given date   
+
+- **Day 7** → Math Utilities  
+  - Factorial of a number  
+  - Generate Fibonacci sequence  
+  - Find GCD of two numbers  
+  - Find LCM of two numbers  
