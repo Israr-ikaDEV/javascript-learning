@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 8 - DOM Utilities</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      padding: 20px;
+    }
+    .highlight {
+      background: yellow;
+      font-weight: bold;
+    }
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1e40af;
+    }
+    #dynamic-box {
+      margin-top: 20px;
+      padding: 10px;
+      border: 2px dashed #2563eb;
+      width: 200px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="title">Hello DOM!</h1>
+  <p class="text">This is a sample paragraph.</p>
+  <p class="text">Another paragraph for testing.</p>
+  <div id="container"></div>
+
+  <button onclick="changeTitle()">Change Title</button>
+  <button onclick="highlightText()">Highlight Text</button>
+  <button onclick="addElement()">Add New Element</button>
+  <button onclick="removeElement()">Remove Last Element</button>
+  <button onclick="changeStyle()">Change Styles</button>
+  <button onclick="setAttributeDemo()">Set Attribute</button>
+  <button id="eventBtn">Click Me (EventListener)</button>
+  <button onclick="innerHTMLDemo()">Change InnerHTML</button>
+
+  <div id="dynamic-box">Dynamic Box</div>
+
+  <script>
+    // 1️⃣ Change element text by ID
+    function changeTitle() {
+      document.getElementById("title").innerText = "Title Changed with JS!";
+    }
+
+    // 2️⃣ Highlight all elements by class
+    function highlightText() {
+      let elements = document.getElementsByClassName("text");
+      for (let el of elements) {
+        el.classList.toggle("highlight");
+      }
+    }
+
+    // 3️⃣ Create & append new element
+    function addElement() {
+      let newPara = document.createElement("p");
+      newPara.innerText = "I am a new paragraph!";
+      document.getElementById("container").appendChild(newPara);
+    }
+
+    // 4️⃣ Remove last element from container
+    function removeElement() {
+      let container = document.getElementById("container");
+      if (container.lastChild) {
+        container.removeChild(container.lastChild);
+      } else {
+        alert("No elements left to remove!");
+      }
+    }
+
+    // 5️⃣ Change CSS style dynamically
+    function changeStyle() {
+      const box = document.getElementById("dynamic-box");
+      box.style.backgroundColor =
+        box.style.backgroundColor === "lightgreen" ? "white" : "lightgreen";
+      box.style.borderRadius = "10px";
+      box.style.color = "black";
+    }
+
+    // 6️⃣ Set Attribute Example
+    function setAttributeDemo() {
+      const title = document.getElementById("title");
+      title.setAttribute("style", "color: red; text-decoration: underline;");
+      alert("Attribute set: Title is now red & underlined!");
+    }
+
+    // 7️⃣ Add Event Listener Example
+    document.getElementById("eventBtn").addEventListener("click", () => {
+      alert("Button clicked using addEventListener!");
+    });
+
+    // 8️⃣ InnerHTML Example
+    function innerHTMLDemo() {
+      const container = document.getElementById("container");
+      container.innerHTML = "<strong>All content replaced with innerHTML!</strong>";
+    }
+  </script>
+</body>
+</html>

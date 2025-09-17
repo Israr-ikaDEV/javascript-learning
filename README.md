@@ -40,3 +40,13 @@
   - Generate Fibonacci sequence  
   - Find GCD of two numbers  
   - Find LCM of two numbers  
+
+ - **Day 8** → DOM Utilities  
+  - Change element text using `getElementById`  
+  - Highlight multiple elements using `getElementsByClassName`  
+  - Create and append new elements dynamically  
+  - Remove last element from container  
+  - Change styles dynamically with `.style`  
+  - Set and update attributes with `setAttribute`  
+  - Add events using `addEventListener`  
+  - Replace content with `innerHTML`  
