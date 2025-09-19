@@ -50,3 +50,9 @@
   - Set and update attributes with `setAttribute`  
   - Add events using `addEventListener`  
   - Replace content with `innerHTML`  
+
+ - **Day 9** → Browser Events & Local Storage Utilities
+  - Implemented event listeners for click, mouseover, keyup, and submit
+  - Built a simple form that stores data in Local Storage
+  - Automatically loads stored data when the page refreshes
+  - Added a Clear Storage button to reset saved data
