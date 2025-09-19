@@ -56,3 +56,13 @@
   - Built a simple form that stores data in Local Storage
   - Automatically loads stored data when the page refreshes
   - Added a Clear Storage button to reset saved data
+
+
+- **Day 10** → **Synchronous vs Asynchronous JavaScript**  
+  - Synchronous examples:
+    - Loops, sum calculation, blocking code, string concatenation, function calls  
+  - Asynchronous examples:
+    - `setTimeout` callbacks  
+    - Nested async steps (callback hell demo)  
+    - Delayed math, delayed loops  
+  - Even/Odd numbers demo (both sync and async version) 
