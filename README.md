@@ -66,3 +66,11 @@
     - Nested async steps (callback hell demo)  
     - Delayed math, delayed loops  
   - Even/Odd numbers demo (both sync and async version) 
+
+  
+ - **Day 11** → Promises & Async/Await
+  - Created and handled Promises with resolve and reject
+  - Used .then() and .catch() for chaining
+  - Wrote cleaner async code with async/await
+  - Used Promise.all to run tasks in parallel
+  - Used Promise.race to return the first completed task
