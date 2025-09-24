@@ -86,3 +86,12 @@
   - Displayed user details: Name, Email, and Profile Picture
   - Added "Loading..." state while fetching data
   - Implemented error handling for failed requests
+
+ - **Day 14** → ES6+ Essentials  
+  - `let` and `const` vs `var` (scope & reassignment rules)  
+  - Arrow functions (short syntax)  
+  - Template literals (string interpolation)  
+  - Destructuring (objects & arrays)  
+  - Spread operator (`...`) for combining/copying  
+  - Rest operator (`...`) for variable arguments  
+  - Default parameters in functions  
