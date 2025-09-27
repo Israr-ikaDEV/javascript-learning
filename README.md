@@ -95,3 +95,10 @@
   - Spread operator (`...`) for combining/copying  
   - Rest operator (`...`) for variable arguments  
   - Default parameters in functions  
+
+
+ - **Day 15** – Classes & OOP in JavaScript
+  - Defining a `class` with a constructor
+  - Adding methods to a class
+  - Using **static methods** (not tied to an instance)
+  - **Inheritance** with `extends` and `super()`
