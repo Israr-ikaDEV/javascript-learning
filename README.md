@@ -102,3 +102,12 @@
   - Adding methods to a class
   - Using **static methods** (not tied to an instance)
   - **Inheritance** with `extends` and `super()`
+
+
+ - **Day 16** → Regex Utilities
+  - Validate email & phone numbers
+  - Extract numbers/words from text
+  - Pattern matching in strings
+  - Replace text with regex
+  - Test method (regex.test(str))
+  - Match method (str.match(regex))
