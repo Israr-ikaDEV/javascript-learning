@@ -167,5 +167,4 @@ function factorial(num) {
 let num7 = 5;
 console.log("Factorial of " + num7 + " = " + factorial(num7));
 
-console.log("---------------------------------------------------------------------");
-console.log("");
+
