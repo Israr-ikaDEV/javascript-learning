@@ -50,7 +50,7 @@ function myFilter(arr, callback) {
 }
 console.log("Custom myFilter (even numbers):", myFilter(numbers, num => num % 2 === 0));
 
-console.log("----------------------------------------------------");
+console.log("---------------------------------------------------");
 
 // 9️⃣ Chaining methods example
 const chainedResult = numbers

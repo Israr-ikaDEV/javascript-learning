@@ -129,4 +129,4 @@
   - `.reduce()` → accumulate values  
   - `.find()` → find first matching element  
   - `.some()` → check if any element passes condition  
-  - `.every()` → check if all elements pass condition  
+  - `.every()` → check if all elements pass condition.
