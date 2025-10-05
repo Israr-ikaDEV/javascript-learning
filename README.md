@@ -111,3 +111,22 @@
   - Replace text with regex
   - Test method (regex.test(str))
   - Match method (str.match(regex))
+
+ - **Day 17** → Number Logic & Algorithm Practice  
+  - Swap two numbers (using and without using a third variable)  
+  - Generate Fibonacci Series (first 20 terms)  
+  - Calculate sum of digits of a number  
+  - Check if a number is an Armstrong number  
+  - Check if a number is a Perfect number  
+  - Reverse a number  
+  - Check if a number is Prime  
+  - Check if a number is a Palindrome  
+  - Calculate factorial of a number  
+
+ - Practiced essential ES6 array methods:
+  - `.map()` → transform each element  
+  - `.filter()` → select elements based on condition  
+  - `.reduce()` → accumulate values  
+  - `.find()` → find first matching element  
+  - `.some()` → check if any element passes condition  
+  - `.every()` → check if all elements pass condition  
